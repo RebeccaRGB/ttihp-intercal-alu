@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Your Name
+ * Copyright (c) 2024 Rebecca G. Bettencourt
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -48,6 +48,6 @@ module tt_um_rebeccargb_intercal_alu (
   end
 
   // List all unused inputs to prevent warnings
-  wire _unused_ok = &{ena, clk, rst_n};
+  wire _unused = &{ena, clk, rst_n, 1'b0};
 
 endmodule
